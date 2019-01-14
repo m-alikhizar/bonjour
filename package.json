@@ -1,0 +1,43 @@
+{
+  "name": "bonjour",
+  "description": "With the help of beautifully diverse community that makes up Javascript eco system, Now besides Node http server that is simple and fast. But it works with callbacks :( however, can convert to promises resolve or catch also there is a one step ahead async-await but simply its a promise based node server.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "promise",
+    "http",
+    "server",
+    "rest",
+    "fast",
+    "async",
+    "await",
+    "https",
+    "ssl",
+    "easy",
+    "redis",
+    "logger",
+    "router"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khizarvaio/bonjour.git"
+  },
+  "author": "Khizar Ali",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "path-to-regexp": "^2.4.0",
+    "config": "^1.27.0",
+    "ioredis": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "homepage": "https://github.com/khizarvaio/bonjour#readme",
+  "files": [
+    "index.js"
+  ]
+}
